@@ -6,7 +6,7 @@ $background-color: white;
 $text-color: #1A1A1D;
 body {
   // margin: 0;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', sans-serif !important;
   background-color: $background-color;
   color: $text-color;
   // color: #E3E2DF;

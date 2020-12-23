@@ -2,37 +2,30 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  // width: 100%;
-  // position: fixed;
-
-  // background-color: red;
-
   height: 4em;
-
-  // border-color: brown;
-  // border-style: dotted;
   .logo {
-    // border-color: black;
-    // border-style: groove;
     font-weight: 700;
   }
   .nav--bar {
     display: flex;
     flex-direction: row;
-
-    // font-family: 'PT Sans', sans-serif;
-    // font-weight: 100;
+    // justify-content: space-around;
     color: grey;
-
-    // width: 25%;
-
-    // border-color: orange;
-    // border-style: dashed;
     .nav--item {
+      opacity: 50%;
+      display: flex;
+      flex-direction: row;
       justify-content: space-around;
-      margin-right: 10%;
-      // font-family: 'PT Sans', sans-serif;
-      font-weight: 400;
+      margin: auto;
+      width: 25px;
+      // padding: 20%;
+      // padding: 20%;
+      // max-width: 5%;
+      // display: block;
+      // justify-content: space-around;
+      // max-width: 1%;
+      // margin-right: 10%;
+      // font-weight: 500;
     }
   }
 }
