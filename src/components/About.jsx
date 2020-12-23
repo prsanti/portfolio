@@ -21,7 +21,7 @@ export default function About() {
           I can navigate databases with <b>PostgreSQL</b>, and use <b>R</b> or <b>Stata</b> to visualize the data.
         </p>
         <p>
-          I am really looking forward to connect with you and start building amazing projects together. You can check out some of my projects here.
+          I am really looking forward to connect with you and start building amazing projects together. You can check out some of my projects here:
         </p>
       </div>
     </div>

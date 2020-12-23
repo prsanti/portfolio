@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.scss';
 
-import mail from "../photos/envelope-solid.svg";
+import mail from "../photos/envelope-regular.svg";
 import github from "../photos/github-brands.svg";
 import instagram from "../photos/instagram-brands.svg";
 import linkedin from "../photos/linkedin-in-brands.svg";

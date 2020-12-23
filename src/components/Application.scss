@@ -5,6 +5,7 @@
 $background-color: white;
 $text-color: #1A1A1D;
 body {
+  z-index: -1;
   // margin: 0;
   font-family: 'PT Sans', sans-serif !important;
   background-color: $background-color;
@@ -13,7 +14,7 @@ body {
   // color: white;
   // background-color: #E3E2DF;
   // background-color: #24305E;
-  // background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png");
+  background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png");
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 

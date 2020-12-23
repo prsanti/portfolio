@@ -9,6 +9,7 @@ $text-color: #1A1A1D;
   border-color: red;
   // border-style: dashed;
   margin-top: 7em;
+  z-index: 1;
 
   #profile-pic {
     display: block;
@@ -23,6 +24,7 @@ $text-color: #1A1A1D;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    // z-index: 1;
     // margin-top: 0%;
     // margin-bottom: 0%;
     // height: 3em;

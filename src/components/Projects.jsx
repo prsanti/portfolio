@@ -33,4 +33,4 @@ export default function Projects() {
   ))
 }
 
-// render(<Viewpager />, document.getElementById('root'))
+render(<Projects />, document.getElementById('root'))
