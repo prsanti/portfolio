@@ -1,0 +1,36 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  // background-color: red;
+
+  height: 4em;
+
+  // border-color: brown;
+  // border-style: dotted;
+  .logo {
+    // border-color: black;
+    // border-style: groove;
+    font-weight: 700;
+  }
+  .nav--bar {
+    display: flex;
+    flex-direction: row;
+
+    // font-family: 'PT Sans', sans-serif;
+    // font-weight: 100;
+    color: grey;
+
+    // width: 25%;
+
+    // border-color: orange;
+    // border-style: dashed;
+    .nav--item {
+      justify-content: space-around;
+      margin-right: 10%;
+      // font-family: 'PT Sans', sans-serif;
+      font-weight: 400;
+    }
+  }
+}
