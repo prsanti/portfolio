@@ -9,17 +9,22 @@ export default function About() {
     <div className="about">
       <img src={pic} alt="profile-pic" id="profile-pic" />
       <div className="intro">
-        <p className="hello">Hey, I'm <b>Paul Santiago</b>
-          {/* <div className="full-name">Paul Santiago</div> */}
-        </p>
+        <p className="hello">Paul Santiago</p><br/>
+        <p className="title"><b>Full-stack Developer</b></p>
       </div>
+      {/* <div className="title">
+        <p>
+          full-stack developer
+        </p>
+      </div> */}
       {/* <h1 className="full-name">
         <div className="first-name">Paul</div>
         <div className="last-name">Santiago</div>
       </h1> */}
       <div className="summary">
         <p>
-          Hello world
+          I am a full-stack developer looking for a position where I can learn and expand my skillset.<br/>
+          I primarily code in <b>React</b>
         </p>
       </div>
     </div>
