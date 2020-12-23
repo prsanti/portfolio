@@ -7,7 +7,6 @@ import Application from './components/Application.jsx';
 ReactDOM.render(
   <React.StrictMode>
     <Application />
-    {/* <Card/> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

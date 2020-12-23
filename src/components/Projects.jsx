@@ -5,13 +5,46 @@ import { useSprings, animated } from 'react-spring'
 import { useGesture } from 'react-use-gesture'
 import './Projects.scss'
 
+import github from "../photos/github-brands.svg";
+
+// const coolimages = [
+//   'https://images.pexels.com/photos/62689/pexels-photo-62689.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+//   'https://images.pexels.com/photos/296878/pexels-photo-296878.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+//   'https://images.pexels.com/photos/924675/pexels-photo-924675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+// ];
+
 const pages = [
-  'https://images.pexels.com/photos/62689/pexels-photo-62689.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-  'https://images.pexels.com/photos/296878/pexels-photo-296878.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-  'https://images.pexels.com/photos/1509428/pexels-photo-1509428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-  'https://images.pexels.com/photos/351265/pexels-photo-351265.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-  'https://images.pexels.com/photos/924675/pexels-photo-924675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
-]
+  {
+    name: "Scheduler",
+    url:'https://images.pexels.com/photos/62689/pexels-photo-62689.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+    description: "React based project to create and organize interviews for students and interviewers.",
+    link: "https://github.com/prsanti/scheduler"
+  },
+  {
+    name: "uPick",
+    url:'https://images.pexels.com/photos/296878/pexels-photo-296878.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+    description: "A smart todo list that automatically categorizes and displays all information for activities you plan to do.",
+    link: "https://github.com/prsanti/smart_TODO_list"
+  },
+  {
+    name: "LightBnB",
+    url:  'https://images.pexels.com/photos/924675/pexels-photo-924675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+    description: "An AirBnB clone that lets you browse, search, and filter all listings your listings as well as others.",
+    link: "https://github.com/prsanti/LightBnB"
+  },
+  {
+    name: "Tweeter",
+    url:'https://github.com/prsanti/scheduler/raw/master/docs/create-appointment.png',
+    description: "A simple, single-page Twitter clone built with jQuery and Ajax.",
+    link: "https://github.com/prsanti/tweeter"
+  },
+  {
+    name: "TinyApp",
+    url:'https://github.com/prsanti/tweeter/raw/master/docs/tweeter-mobile.png',
+    description: "A full-stack web application built with Node.js and Express that allows users to shorten long URLs.",
+    link: "https://github.com/prsanti/tinyapp"
+  },
+];
 
 export default function Projects() {
   const index = useRef(0)
@@ -28,7 +61,13 @@ export default function Projects() {
   })
   return props.map(({ x, display, sc }, i) => (
     <animated.div {...bind()} key={i} style={{ display, transform: x.interpolate(x => `translate3d(${x}px,0,0)`) }}>
-      <animated.div style={{ transform: sc.interpolate(s => `scale(${s})`), backgroundImage: `url(${pages[i]})` }} />
+      <h1 className="project--name">{pages[i].name}</h1>
+      <p className="project--description">{pages[i].description}</p>
+      <animated.div style={{ transform: sc.interpolate(s => `scale(${s})`), backgroundImage: `url(${pages[i].url})` }} />
+
+      <a href={pages[i].link}>
+          <img src={github} alt="github" className="nav--item"/>
+        </a>
     </animated.div>
   ))
 }
