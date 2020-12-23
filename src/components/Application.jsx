@@ -10,7 +10,6 @@ export default function Application() {
     <main className="layout">
       <Header/>
       <About/>
-      <p>testing</p>
       <Projects/>
     </main>
   );

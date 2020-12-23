@@ -13,19 +13,18 @@ export default function Header() {
         <h1>P S</h1>
       </div>
       <div className="nav--bar">
-        <img src={github} alt="github" className="nav--item" />
-        <img src={linkedin} alt="linkedin" className="nav--item" />
-        <img src={mail} alt="mail" className="nav--item" />
-        <img src={instagram} alt="instagram" className="nav--item" />
-        {/* <h3 className="nav--item">
-          About
-        </h3>
-        <h3 className="nav--item">
-          Projects
-        </h3>
-        <h3 className="nav--item">
-          Connect
-        </h3> */}
+        <a href="https://github.com/prsanti">
+          <img src={github} alt="github" className="nav--item"/>
+        </a>
+        <a href="https://www.linkedin.com/in/paulorsantiago/">
+          <img src={linkedin} alt="linkedin" className="nav--item"/>
+        </a>
+        <a href="mailto:p.santiago796@gmail.com">
+          <img src={mail} alt="mail" className="nav--item"/>
+        </a>
+        <a href="https://www.instagram.com/paulo_sntgo/">
+          <img src={instagram} alt="instagram" className="nav--item"/>
+        </a>
       </div>
     </header>
   );

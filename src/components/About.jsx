@@ -1,14 +1,8 @@
 import React from 'react';
 import './About.scss';
 import pic from "../photos/circle-profile.png";
-import mail from "../photos/envelope-solid.svg";
-import github from "../photos/github-brands.svg";
-import instagram from "../photos/instagram-brands.svg";
-import linkedin from "../photos/linkedin-in-brands.svg";
-
 
 export default function About() {
-  // const profilePic = "../../public/circle-profile.png";
   return (
     <div className="about">
       <img src={pic} alt="profile-pic" id="profile-pic" />
@@ -29,17 +23,6 @@ export default function About() {
         <p>
           I am really looking forward to connect with you and start building amazing projects together. You can check out some of my projects here.
         </p>
-      </div>
-      <div className="socials">
-        {/* <a href="https://github.com/prsanti">
-          Hello */}
-        <a>
-          <img src={github} alt="github" className="social--icon" />
-        </a>
-        {/* </a> */}
-        <img src={linkedin} alt="linkedin" className="social--icon" />
-        <img src={mail} alt="mail" className="social--icon" />
-        <img src={instagram} alt="instagram" className="social--icon" />
       </div>
     </div>
   );
