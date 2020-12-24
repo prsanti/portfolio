@@ -16,8 +16,9 @@ import github from "../photos/github-brands.svg";
 const pages = [
   {
     name: "Scheduler",
+    url: "https://i.imgur.com/HV8yH7d.png",
     // url: "https://i.imgur.com/0ZRoKdP.mp4",
-    url:'https://images.pexels.com/photos/62689/pexels-photo-62689.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+    // url:'https://images.pexels.com/photos/62689/pexels-photo-62689.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
     description: "React based project to create and organize interviews for students and interviewers.",
     link: "https://github.com/prsanti/scheduler"
   },
@@ -29,19 +30,20 @@ const pages = [
   },
   {
     name: "LightBnB",
-    url:  'https://images.pexels.com/photos/924675/pexels-photo-924675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+    url:  'https://i.imgur.com/JdizwSc.png',
     description: "An AirBnB clone that lets you browse, search, and filter all listings your listings as well as others.",
     link: "https://github.com/prsanti/LightBnB/tree/master/LightBnB_WebApp-master"
   },
   {
     name: "Tweeter",
-    url:'https://github.com/prsanti/scheduler/raw/master/docs/create-appointment.png',
+    url:'https://i.imgur.com/bCnaShE.png',
     description: "A simple, single-page Twitter clone built with jQuery and Ajax.",
     link: "https://github.com/prsanti/tweeter"
   },
   {
     name: "TinyApp",
-    url:'https://github.com/prsanti/tweeter/raw/master/docs/tweeter-mobile.png',
+    // url:'https://github.com/prsanti/tweeter/raw/master/docs/tweeter-mobile.png',
+    url: "https://i.imgur.com/g2Jjfb5.png",
     description: "A full-stack web application built with Node.js and Express that allows users to shorten long URLs.",
     link: "https://github.com/prsanti/tinyapp"
   },

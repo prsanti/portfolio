@@ -1,5 +1,7 @@
-$background-color: #E3E2DF;
-$text-color: #1A1A1D;
+// $background-color: #E3E2DF;
+// $text-color: #1A1A1D;
+$background-color: #1A1A1D;
+$text-color: #E3E2DF;
 
 .about {
   font-family: 'PT Sans', sans-serif !important;
@@ -16,6 +18,7 @@ $text-color: #1A1A1D;
     margin: auto;
 
     border-color: black;
+    // box-shadow: 5px 10px;
     // border-style: double;
     width: 10em;
   }

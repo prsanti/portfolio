@@ -3,7 +3,6 @@ import React from 'react';
 import Header from "./Header.jsx";
 import About from "./About.jsx";
 import Projects from "./Projects.jsx";
-// import Card from "./Card.jsx";
 
 export default function Application() {
   return (
