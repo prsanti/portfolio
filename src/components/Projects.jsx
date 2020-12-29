@@ -66,8 +66,8 @@ export default function Projects() {
       <animated.div style={{ transform: sc.interpolate(s => `scale(${s})`), backgroundImage: `url(${pages[i].url})` }} />
 
       <a href={pages[i].link}>
-          <img src={github} alt="github" className="nav--item"/>
-        </a>
+        <img src={github} alt="github" className="nav--item"/>
+      </a>
     </animated.div>
   ))
 }
