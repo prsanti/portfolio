@@ -4,22 +4,18 @@ $background-color: #1A1A1D;
 $text-color: #E3E2DF;
 
 .about {
-  font-family: 'PT Sans', sans-serif !important;
+  font-family: 'PT Sans', sans-serif;
   display: flex;
   flex-direction: column;
 
   border-color: red;
-  // border-style: dashed;
   margin-top: 2em;
   z-index: 1;
 
   #profile-pic {
     display: block;
     margin: auto;
-
     border-color: black;
-    // box-shadow: 5px 10px;
-    // border-style: double;
     width: 10em;
   }
   .intro {
@@ -27,20 +23,9 @@ $text-color: #E3E2DF;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    // z-index: 1;
-    // margin-top: 0%;
-    // margin-bottom: 0%;
-    // height: 3em;
-    // margin: auto;
     line-height: 0.1em;
     font-weight: 700;
     font-size: 35px;
-    border-color: green;
-    // border-style: dashed;
-    .hello {
-      border-color: gold;
-      // border-style: dotted;
-    }
   }
   .title {
     display: flex;
@@ -48,13 +33,6 @@ $text-color: #E3E2DF;
     justify-content: center;
     font-weight: 400;
     font-size: 30px;
-    // height: -20px;
-    // padding-top: -5em;
-    // margin-top: -20em;
-    // position: relative;
-    // padding-top: -50em;
-    border-color: gold;
-    // border-style: dotted;
   }
 }
 
@@ -68,6 +46,7 @@ $text-color: #E3E2DF;
   max-width: 65%;
   margin:auto;
   line-height: 1.6;
+  font-size: large;
 }
 
 .socials {
@@ -78,6 +57,5 @@ $text-color: #E3E2DF;
 }
 .social--icon {
   display: flex;
-  // flex-direction: row;
   max-width: 1%;
 }

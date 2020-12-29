@@ -24,7 +24,7 @@ const pages = [
   },
   {
     name: "uPick",
-    url:'https://images.pexels.com/photos/296878/pexels-photo-296878.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+    url:'https://i.imgur.com/aBKTu7W.png',
     description: "A smart todo list that automatically categorizes and displays all information for activities you plan to do.",
     link: "https://github.com/prsanti/smart_TODO_list"
   },
@@ -36,7 +36,9 @@ const pages = [
   },
   {
     name: "Tweeter",
-    url:'https://i.imgur.com/bCnaShE.png',
+    // url: 'https://github.com/prsanti/tweeter/blob/master/docs/tweeter-mobile.png',
+    // url:'https://i.imgur.com/bCnaShE.png',
+    url: 'https://i.imgur.com/dDqiJ6k.png',
     description: "A simple, single-page Twitter clone built with jQuery and Ajax.",
     link: "https://github.com/prsanti/tweeter"
   },
