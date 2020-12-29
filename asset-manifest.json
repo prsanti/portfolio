@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.549e7897.chunk.css",
+    "main.js": "/portfolio/static/js/main.f335d0bf.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f335d0bf.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.8fed2963.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.8fed2963.js.map",
+    "static/js/2.3ee141e7.chunk.js": "/portfolio/static/js/2.3ee141e7.chunk.js",
+    "static/js/2.3ee141e7.chunk.js.map": "/portfolio/static/js/2.3ee141e7.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.549e7897.chunk.css.map": "/portfolio/static/css/main.549e7897.chunk.css.map",
+    "static/js/2.3ee141e7.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3ee141e7.chunk.js.LICENSE.txt",
+    "static/media/circle-profile.36829f13.png": "/portfolio/static/media/circle-profile.36829f13.png",
+    "static/media/envelope-regular.7237e68b.svg": "/portfolio/static/media/envelope-regular.7237e68b.svg",
+    "static/media/github-brands.e2f07326.svg": "/portfolio/static/media/github-brands.e2f07326.svg",
+    "static/media/instagram-brands.90a80cd5.svg": "/portfolio/static/media/instagram-brands.90a80cd5.svg",
+    "static/media/linkedin-in-brands.8fb0cfb6.svg": "/portfolio/static/media/linkedin-in-brands.8fb0cfb6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8fed2963.js",
+    "static/js/2.3ee141e7.chunk.js",
+    "static/css/main.549e7897.chunk.css",
+    "static/js/main.f335d0bf.chunk.js"
+  ]
+}
