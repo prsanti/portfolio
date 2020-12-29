@@ -1,10 +1,10 @@
 import React from 'react';
 import './Header.scss';
 
-import mail from "../photos/envelope-regular.svg";
-import github from "../photos/github-brands.svg";
-import instagram from "../photos/instagram-brands.svg";
-import linkedin from "../photos/linkedin-in-brands.svg";
+import mail from "../photos/envelope-regular.png";
+import github from "../photos/github-brands.png";
+import instagram from "../photos/instagram-brands.png";
+import linkedin from "../photos/linkedin-in-brands.png";
 
 export default function Header() {
   return (
