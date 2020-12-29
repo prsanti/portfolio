@@ -5,12 +5,9 @@
 $background-color:#1A1A1D;
 $text-color:white;
 body {
-  z-index: -1;
+  // z-index: -1;
   font-family: 'PT Sans', sans-serif !important;
   background-color: $background-color;
   color: $text-color;
-
+  min-width: 1000px;
 }
-
-// Bold Text
-// 2D221C
