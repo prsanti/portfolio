@@ -7,12 +7,6 @@ import './Projects.scss'
 
 import github from "../photos/github-brands.svg";
 
-// const coolimages = [
-//   'https://images.pexels.com/photos/62689/pexels-photo-62689.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-//   'https://images.pexels.com/photos/296878/pexels-photo-296878.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-//   'https://images.pexels.com/photos/924675/pexels-photo-924675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
-// ];
-
 const pages = [
   {
     name: "Scheduler",
@@ -65,7 +59,7 @@ export default function Projects() {
       <p className="project--description">{pages[i].description}</p>
       <animated.div style={{ transform: sc.interpolate(s => `scale(${s})`), backgroundImage: `url(${pages[i].url})` }} />
 
-      <a href={pages[i].link}>
+      <a href={pages[i].link} target="_blank" rel="noopener noreferrer">
         <img src={github} alt="github" className="nav--item"/>
       </a>
     </animated.div>

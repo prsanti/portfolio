@@ -9,7 +9,6 @@ body {
   height: 65%;
   will-change: transform;
   background-color: #F3F3F3;
-  // background-color: #AC3B61;
   margin: auto;
   padding-bottom: 2%;
 }
@@ -35,6 +34,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'Raleway', sans-serif;
 }
 
 .project--description, .project--link {
@@ -56,5 +56,8 @@ body {
   margin: auto;
   width: 45px;
   padding-top: 2%;
-  // padding-bottom: 2%;
+}
+
+.nav--item:hover {
+  width: 55px;
 }

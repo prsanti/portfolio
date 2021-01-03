@@ -18,6 +18,7 @@ $text-color: #E3E2DF;
     border-color: black;
     width: 10em;
   }
+
   .intro {
     display: flex;
     flex-direction: column;
@@ -26,6 +27,7 @@ $text-color: #E3E2DF;
     line-height: 0.1em;
     font-weight: 700;
     font-size: 35px;
+    font-family: 'Raleway', sans-serif;
   }
   .title {
     display: flex;
@@ -47,15 +49,4 @@ $text-color: #E3E2DF;
   margin:auto;
   line-height: 1.6;
   font-size: large;
-}
-
-.socials {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-
-}
-.social--icon {
-  display: flex;
-  max-width: 1%;
 }
