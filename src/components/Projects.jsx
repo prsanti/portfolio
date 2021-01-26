@@ -9,6 +9,18 @@ import github from "../photos/github-brands.svg";
 
 const pages = [
   {
+    name: "Rebu",
+    url: "https://i.imgur.com/rXVNLvr.png",
+    description: "Designated Driving Service: Get others to drive your car after a night out drinking. Get comfortable and get home safe in your own car!",
+    link: "https://github.com/jmgtheworld/Rebu"
+  },
+  {
+    name: "Jungle",
+    url: "https://i.imgur.com/jOONus0.png",
+    description: "A simple Amazon clone, made with Ruby on Rails.",
+    link: "https://github.com/prsanti/jungle-rails"
+  },
+  {
     name: "Scheduler",
     url: "https://i.imgur.com/nVou2Hy.png",
     description: "React based project to create and organize interviews for students and interviewers.",

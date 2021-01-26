@@ -19,8 +19,10 @@ export default function About() {
           In addition, I use <b>Cypress</b> for end-to-end testing to simulate and visualize what users will see when using an application.
         </p>
         <p>
-          On the back-end side of my projects, I have experience coding in <b>Ruby on Rails</b>, and managing servers and files through <b>Node.js</b>, and <b>Next.js</b>.
-          I can navigate databases with <b>PostgreSQL</b>, and use <b>R</b> or <b>Stata</b> to visualize the data.
+          On the back-end side of my projects, I have experience coding in <b>Ruby on Rails</b> and understanding the flow of MVC (Model, View, Controller) frameworks.
+          However, I primarily manage my server side development through <b>Node.js</b>, and <b>Express.js</b> .
+          On the database side of the server, I have experience using <b>PostgreSQL</b> by managing my data and tables.
+          And I am currently learning <b>GraphQL</b> to further my skillset within backend development.
         </p>
         <p>
           I am really looking forward to connect with you and start building amazing projects together.
