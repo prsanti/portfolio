@@ -50,3 +50,8 @@ $text-color: #E3E2DF;
   line-height: 1.6;
   font-size: large;
 }
+
+.email {
+  text-decoration: underline;
+  color: $background-color;
+}
