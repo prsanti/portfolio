@@ -12,7 +12,8 @@ const pages = [
     name: "Rebu",
     url: "https://i.imgur.com/rXVNLvr.png",
     description: "Designated Driving Service: Get others to drive your car after a night out drinking. Get comfortable and get home safe in your own car!",
-    link: "https://github.com/jmgtheworld/Rebu"
+    link: "https://github.com/jmgtheworld/Rebu",
+    video: "https://www.youtube.com/watch?v=oiV-0-oXAhw&feature=youtu.be"
   },
   {
     name: "Jungle",
@@ -71,7 +72,10 @@ export default function Projects() {
       <p className="project--description">{pages[i].description}</p>
       <animated.div style={{ transform: sc.interpolate(s => `scale(${s})`), backgroundImage: `url(${pages[i].url})` }} />
 
-      <a href={pages[i].link} target="_blank" rel="noopener noreferrer">
+      <a href={pages[i].link} target="_blank" rel="noopener noreferrer" className="hrefs">
+        <img src={github} alt="github" className="nav--item"/>
+      </a>
+      <a href={pages[i].video} target="_blank" rel="noopener noreferrer">
         <img src={github} alt="github" className="nav--item"/>
       </a>
     </animated.div>
